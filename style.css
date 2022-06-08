@@ -1,1 +1,91 @@
-# Style.css
+html {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+body {
+  background: linear-gradient(125deg, #97daff, #003dd0, #05013e);
+  font-family: "Lato", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  padding: 50px;
+}
+
+.name {
+  /* position: absolute; */
+  /* width: 673px;
+  height: 120px;
+  left: 429px;
+  top: 191px; */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 120px;
+
+  text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+}
+
+.vacancy {
+  /* position: absolute;
+  width: 747px;
+  height: 72px;
+  left: 382px;
+  top: 345px; */
+
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.section {
+  background-color: rgba(0, 0, 0, 0.25);
+  background-size: 200px 200px;
+  border-radius: 20px;
+}
+
+#title-content {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #e286f1;
+}
+
+#about {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.link {
+  font-size: 20px;
+  color: rgba(255, 0, 184, 1);
+}
+
+.container {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+.ul {
+  text-align: center;
+  list-style: none;
+}
+
+.last-list {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 3px;
+}
